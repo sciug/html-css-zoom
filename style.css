@@ -50,6 +50,52 @@ body{
 }
 
 
+
+.arrow_sx{
+    position: absolute;
+    left: 10px;
+    top:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow_sx i{
+   font-size: 2rem;
+}
+
+
+
+.arrow_sx p{
+font-size: .8rem;
+}
+
+
+.arrow_dx{
+    position: absolute;
+    right: 10px;
+    top:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow_dx i{
+   font-size: 2rem;
+   color: skyblue;
+}
+
+
+
+.arrow_dx p{
+font-size: .8rem;
+}
+
+
+
+
+
+
 #site_header{
     margin:1rem 0;
 }
