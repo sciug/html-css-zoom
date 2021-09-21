@@ -60,6 +60,24 @@ body{
 
 
 
+.crossed
+{
+    content: "";
+    width: 11px;
+    height: 4px;
+    background-color: red;
+    bottom: 41%;
+    left: 1px;
+    position: absolute;
+    transform: skewY(306deg);
+}
+
+
+
+
+
+
+
 
 
 .btn{
