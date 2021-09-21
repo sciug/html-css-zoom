@@ -30,7 +30,9 @@
 .align_center{
     align-items: center;
 }
-
+.align_top{
+    align-items: flex-start;
+}
 
 
 .relative{
@@ -61,7 +63,7 @@ body{
 
 
 .btn{
-    background-color: cornflowerblue;
+    background:linear-gradient(#444444,#000000);
     padding: .5rem .7rem;
     margin-right: .5rem;
     border-radius: 5px;
@@ -95,19 +97,27 @@ body{
 
 #site_footer{
     margin-top: 5rem;
-    background-color: cornflowerblue;
-    padding: .5rem 1rem;
+    background:linear-gradient(#444444,#000000);
 }
+
+
+.padding{
+    padding: 1rem 1rem .5rem;
+}
+
 
 
 #site_footer p{
     font-size: .8rem;
+    margin-top: .3rem;
+}
+.end_meeting_text{
+    margin: 0;
 }
 
 
-
 #site_footer i{
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }
 
@@ -116,5 +126,32 @@ body{
 }
 
 
+.video_options .fa-chevron-up{
+    margin: 0 1.5rem 0 1rem;
+
+}
+
+
+
+
+.video_options,.end_meeting{
+    flex-grow: 1;
+}
+
+.end_meeting{
+    justify-content: flex-end;
+
+}
+
 .meeting_options{
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.meeting_options > div {
+    margin-left: 4rem;
+}
+
+.meeting_options .users_counter{
+    margin-left: .3rem;
 }
