@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+.justify{
+    justify-content: space-between;
+}
+
 
 .flex_gap{
     gap: 1rem;
@@ -94,6 +98,14 @@ body{
     background-color: cornflowerblue;
     padding: .5rem 1rem;
 }
+
+
+#site_footer p{
+    font-size: .8rem;
+}
+
+
+
 #site_footer i{
     font-size: 2rem;
 
@@ -105,5 +117,4 @@ body{
 
 
 .meeting_options{
-    flex-grow: 1;
 }
