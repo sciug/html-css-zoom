@@ -46,7 +46,7 @@
 
 body{
     background-color: black;
-    color: white;
+    color: rgb(226, 226, 226);
 }
 
 
@@ -134,13 +134,17 @@ body{
 
 
 
-.video_options,.end_meeting{
-    flex-grow: 1;
+.end_meeting{
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+
 }
 
-.end_meeting{
-    justify-content: flex-end;
+.end_meeting_text{color: red;}
 
+
+#site_footer .end_meeting p{
+    margin: 0;
 }
 
 .meeting_options{
@@ -149,9 +153,13 @@ body{
 }
 
 .meeting_options > div {
-    margin-left: 4rem;
+    margin:0 1rem;
 }
 
 .meeting_options .users_counter{
     margin-left: .3rem;
+}
+
+.fa-desktop{
+    color: rgb(5, 177, 5);
 }
