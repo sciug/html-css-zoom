@@ -12,6 +12,11 @@
    
 }
 
+
+.border{
+    border: solid yellow 3px;
+}
+
 .flex_column{
     display: flex;
     flex-direction: column;
